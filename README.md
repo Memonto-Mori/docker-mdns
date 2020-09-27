@@ -15,5 +15,5 @@ Ejecute el contenedor con el CONTAINER ID:
 ```
 docker run -it <CONTAINER ID>
 ```
-Perfecto, la consola de elixir ya esta en marcha
-Para 
+Perfecto, la consola de elixir ya esta en marcha! \\
+a

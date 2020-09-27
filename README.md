@@ -15,5 +15,7 @@ Ejecute el contenedor con el CONTAINER ID:
 ```
 docker run -it <CONTAINER ID>
 ```
-Perfecto, la consola de elixir ya esta en marcha! \\
-a
+Perfecto, la consola de elixir ya esta en marcha! 
+
+para hacer uso del cliente/servidor MDNS, 
+visite https://github.com/rosetta-home/mdns

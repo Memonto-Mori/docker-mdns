@@ -8,4 +8,10 @@ docker build .
 ```
 No obstante, si se desea etiquetar la imagen:
 
+```
 docker build -t name_etiqueta .
+```
+Ejecute el contenedor con el CONTAINER ID:
+```
+docker run -it <CONTAINER ID>
+```

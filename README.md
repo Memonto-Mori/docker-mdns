@@ -9,9 +9,11 @@ docker build .
 No obstante, si se desea etiquetar la imagen:
 
 ```
-docker build -t name_etiqueta .
+docker build -t <NAME ETIQUETA> .
 ```
 Ejecute el contenedor con el CONTAINER ID:
 ```
 docker run -it <CONTAINER ID>
 ```
+Perfecto, la consola de elixir ya esta en marcha
+Para 

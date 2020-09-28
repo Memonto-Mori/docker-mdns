@@ -19,3 +19,8 @@ Perfecto, la consola de elixir ya esta en marcha!
 
 para hacer uso del cliente/servidor MDNS, 
 visite https://github.com/rosetta-home/mdns
+
+# Análisis de tráfico capturado
+En el siguiente vinculo, se aprecia una explicación referente a ciertos comportamientos que tuvo la comunicación MDNS entre los host establecidos en la red de la interface de docker
+
+https://youtu.be/tBnaC9AFBR8

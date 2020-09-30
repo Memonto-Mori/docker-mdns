@@ -1,7 +1,7 @@
 # docker-mdns
 Proyecto para ejecutar una aplicación asociada a un servico MDNS que establece una comunicación entre Cliente/Servidor.
 
-Cabe mencionar, que el dockerfile ejecuta una aplicación P2P desentralizada
+Cabe mencionar, que el dockerfile sirve tanto para el cliente como el servidor.
 
 # Uso
 Crea el contenedor por medio del siguiente comando:

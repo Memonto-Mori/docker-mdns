@@ -6,7 +6,7 @@ def interceptar(packet):
         print(packet['MDNS']['count.add_rr'])
         print('Nuevo campo "count.add_rr": ')
         packet['MDNS']['count.add_rr'] = 7
-        print(packet['MDNS']['count.answers'])
+        print(packet['MDNS']['count.add_rr'])
         return packet
   except:
     return packet

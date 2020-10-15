@@ -24,3 +24,6 @@ visite https://github.com/rosetta-home/mdns
 
 # Análisis del tráfico capturado entre host
 En el siguiente vinculo https://youtu.be/YrY_72C9yTk, se aprecia una explicación referente a ciertos comportamientos que tuvo la comunicación MDNS entre los host establecidos en la red de la interface de docker.
+
+# Repercusiones y modificaciones de trafico
+En ek siguiente vinculo https://youtu.be/yTWv-tAVvLY, se aprecia una demostracion refrente a la modificacion de trafico MDNS con el uso del software Polymorph: Mostrando sus repercuiones en la aplicacion cliente/servidor. 

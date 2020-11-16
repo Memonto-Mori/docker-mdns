@@ -29,4 +29,4 @@ En el siguiente vinculo https://youtu.be/YrY_72C9yTk, se aprecia una explicació
 En el siguiente vinculo https://youtu.be/yTWv-tAVvLY, se aprecia una demostracion referente a la modificacion de trafico MDNS con el uso del software Polymorph: Mostrando sus repercuiones en la aplicacion cliente/servidor. 
 
 # Analisis de Metricas de red
-En el siguiente vinculo ????????????????, se aprecia un analisis a la medicion y modificacion de las metricas de red  del prtocolo MDNS. Utilizando polymorph y netem para demostrar lo anteriormente dicho. 
+En el siguiente vinculo https://youtu.be/QuHt_DGFRm8, se aprecia un analisis a la medicion y modificacion de las metricas de red  del prtocolo MDNS. Utilizando polymorph y netem para demostrar lo anteriormente dicho. 

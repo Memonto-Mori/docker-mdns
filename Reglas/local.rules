@@ -1,0 +1,9 @@
+alert udp $HOME_NET 5353 -> !$HOME_NET any (msg: "Comunicación anómala, protocolo MDNS solo actúa a nivel local! "; flow:from_server,established; sid:1;)
+    
+alert udp $HOME_NET 5353 -> $HOME_NET 5353 (dsize: >26; msg: "Carga útil anómala!"; sid:1;)
+
+alert udp $HOME_NET 5353-> $HOME_NET 5353 (content:"TXT"; offset:8; depth:20; msg: "Cambios de mensajes no usuales"; sid:3;)
+
+activate udp $HOME_NET 5353 -> $HOME_NET 5353 (msg:”Rejetto HFS Exploit Attempt”; content:``TXT”; flowbits:set,payload; sid:4; rev:1; activates:1;)
+
+alert udp $HOME_NET 5353 -> $HOME_NET 5353 (msg: ``Mensaje anómalo”; content: “TXT”; pcre: “/1*234/“; sid:5;)
